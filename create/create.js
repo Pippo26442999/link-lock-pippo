@@ -127,7 +127,7 @@ async function onEncrypt() {
   highlight("output");
 
   // Adjust "Hidden Bookmark" link
-  document.querySelector("#bookmark").href = `https://pippo26442999.github.io/link-lock/hidden/#${encrypted}`;
+  document.querySelector("#bookmark").href = `https://pippo26442999.github.io/link-lock-pippo/hidden/#${encrypted}`;
 
   // Adjust "Open in New Tab" link
   document.querySelector("#open").href = output;
