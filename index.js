@@ -78,11 +78,11 @@ function main() {
 
         // Set the "decrypt without redirect" URL appropriately
         document.querySelector("#no-redirect").href =
-          `https://pippo26442999.github.io/link-lock/decrypt/#${hash}`;
+          `https://pippo26442999.github.io/link-lock-pippo/decrypt/#${hash}`;
 
         // Set the "create hidden bookmark" URL appropriately
         document.querySelector("#hidden").href =
-          `https://pippo26442999.github.io/link-lock/hidden/#${hash}`;
+          `https://pippo26442999.github.io/link-lock-pippo/hidden/#${hash}`;
         return;
       }
 
